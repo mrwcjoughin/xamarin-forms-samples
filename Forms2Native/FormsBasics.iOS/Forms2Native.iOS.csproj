@@ -10,6 +10,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <NuGetPackageImportStamp>6285c145</NuGetPackageImportStamp>
     <TargetFrameworkIdentifier>Xamarin.iOS</TargetFrameworkIdentifier>
+    <BaseDirectory>..\Forms2Native.iOS</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>

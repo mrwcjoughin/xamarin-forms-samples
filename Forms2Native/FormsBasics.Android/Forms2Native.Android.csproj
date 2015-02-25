@@ -17,6 +17,7 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <NuGetPackageImportStamp>ff41e641</NuGetPackageImportStamp>
+    <BaseDirectory>..\Forms2Native.Android</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
