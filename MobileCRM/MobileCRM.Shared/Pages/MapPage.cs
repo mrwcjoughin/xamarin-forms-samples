@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MobileCRM.Models;
 using MobileCRM.Shared.ViewModels;
+using MobileCRM;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 /*
@@ -112,7 +113,7 @@ namespace MobileCRM.Shared.Pages
             //PinMap = dict;
 
             // TODO: Compute a proper bounding box.
-            var map = new Map(MapSpan.FromCenterAndRadius(pins[0].Position, Distance.FromMiles(0.3)))
+			var map = new MiXMap(MapSpan.FromCenterAndRadius(pins[0].Position, Distance.FromMiles(0.3)))
             {
                 IsShowingUser = true
             };

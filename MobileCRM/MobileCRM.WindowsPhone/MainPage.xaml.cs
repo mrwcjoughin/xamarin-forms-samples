@@ -21,8 +21,7 @@ namespace MobileCRM.WindowsPhone
 		public MainPage()
 		{
 			InitializeComponent();
-
-
+            
             MobileCRMApp.Init(typeof(MobileCRMApp).Assembly);
 			Forms.Init();
 			FormsMaps.Init();

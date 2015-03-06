@@ -1,21 +1,19 @@
 using System;
-using Xamarin.Forms;
-using YourNameSpace;
-using YourNameSpace.iOS;
-using Xamarin.Forms.Maps.iOS;
-using MapKit;
-using UIKit;
 using CoreLocation;
+using MapKit;
+using MobileCRM;
+using MobileCRM.iOS;
+using UIKit;
+using Xamarin.Forms;
+using Xamarin.Forms.Maps;
+using Xamarin.Forms.Maps.iOS;
 
-
-
-[assembly: ExportRenderer (typeof (MyMap), typeof (MyMapRenderer))]
-namespace YourNameSpace.iOS
+[assembly: ExportRenderer (typeof (MiXMap), typeof (MapRendereriOS))]
+namespace MobileCRM.iOS
 {
-    public class MyMapRenderer : MapRenderer
+	public class MapRendereriOS : MapRenderer
     {
 		MKMapView mapView;
-		MyMap myMap;
 		MKPolyline lineOverlay;
 		MKPolylineRenderer lineRenderer;
 
@@ -27,7 +25,7 @@ namespace YourNameSpace.iOS
 
 				mapView = Control as MKMapView;
 
-				myMap = e.NewElement as MyMap;
+				Map myMap = e.NewElement as Map;
 
 				mapView.OverlayRenderer = (m, o) => {
 					if(lineRenderer == null) {
@@ -38,9 +36,9 @@ namespace YourNameSpace.iOS
 					return lineRenderer;
 				};
 				
-				var point1 = new CLLocationCoordinate2D(37,-122);
-				var point2 = new CLLocationCoordinate2D(37,-122.001);
-				var point3 = new CLLocationCoordinate2D(37.001,-122.002);
+				var point1 = new CLLocationCoordinate2D(37.7970564,-122.4034628);
+				var point2 = new CLLocationCoordinate2D(37.7970564,-122.6034628);
+				var point3 = new CLLocationCoordinate2D(37.7970564,-122.8034628);
 				
 				lineOverlay = MKPolyline.FromCoordinates(new CLLocationCoordinate2D[] {point1, point2, point3});
 				mapView.AddOverlay (lineOverlay);
