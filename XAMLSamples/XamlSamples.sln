@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlSamples", "XamlSamples\XamlSamples\XamlSamples.csproj", "{B635559C-3F14-46D6-AE08-98FFDB192BAB}"
 EndProject
@@ -108,7 +108,6 @@ Global
 		{B547CDF3-BCE4-40A0-BD8A-4E204D036FAB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{B547CDF3-BCE4-40A0-BD8A-4E204D036FAB}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
 		{B547CDF3-BCE4-40A0-BD8A-4E204D036FAB}.Debug|Mixed Platforms.ActiveCfg = Debug|iPhoneSimulator
-		{B547CDF3-BCE4-40A0-BD8A-4E204D036FAB}.Debug|Mixed Platforms.Build.0 = Debug|iPhoneSimulator
 		{B547CDF3-BCE4-40A0-BD8A-4E204D036FAB}.Debug|Mixed Platforms.Deploy.0 = Debug|iPhoneSimulator
 		{B547CDF3-BCE4-40A0-BD8A-4E204D036FAB}.Debug|x86.ActiveCfg = Debug|iPhone
 		{B547CDF3-BCE4-40A0-BD8A-4E204D036FAB}.Release|Any CPU.ActiveCfg = Release|iPhone
@@ -154,7 +153,6 @@ Global
 		{7A7F488C-F4C2-4E57-A38A-7E8C37534EC6}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{7A7F488C-F4C2-4E57-A38A-7E8C37534EC6}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
 		{7A7F488C-F4C2-4E57-A38A-7E8C37534EC6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{7A7F488C-F4C2-4E57-A38A-7E8C37534EC6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{7A7F488C-F4C2-4E57-A38A-7E8C37534EC6}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
 		{7A7F488C-F4C2-4E57-A38A-7E8C37534EC6}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{7A7F488C-F4C2-4E57-A38A-7E8C37534EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
